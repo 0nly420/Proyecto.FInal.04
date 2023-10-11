@@ -4,9 +4,9 @@
 
 /* Step 2 - Variables */
 
-let fullName = "Patricia Juares";
+let fullName = "Kevin Cuchon";
 let currentYear = new Date().getFullYear();
-let profilePicture = 'images/yourprofileimagename.png';
+let profilePicture = 'images/Kevin.jpeg';
 
 /* Step 3 - Element Variables */
 
@@ -28,9 +28,9 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 
-const favFoods = ['Pizza', 'Sushi', 'Chocolate', 'Ice Cream'];
+let favFoods = ['Pizza', 'Sushi', 'Chocolate', 'Ice Cream'];
 foodElement.innerHTML = favFoods.join('<br>');
-const newFavoriteFood = 'Burgers';
+let newFavoriteFood = 'Burgers';
 favFoods.push(newFavoriteFood);
 foodElement.innerHTML += `<br>${newFavoriteFood}`;
 favFoods.shift();
